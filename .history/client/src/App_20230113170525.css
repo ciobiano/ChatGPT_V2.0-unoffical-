@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App {
+  text-align: center;
+  display: flex;
+  background-color: var(--text-default);
+  color: #fff;
+}
+
+:root {
+  --color-primary: #19c37d;
+  --color-secondary: #715fde;
+  --color-error: #ef4146;
+  --gradient-primary: linear-gradient(90deg, #a29bd4, #989fdd);
+  --text-primary: #202123;
+  --text-default: #353740;
+  --text-secondary: #6e6e80;
+  --text-disabled: #acacbe;
+  --text-error: var(--color-error);
+}
+
+.avatar {
+  background: #fff;
+  
+}
+.avatar.chatgpt {
+ 
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
